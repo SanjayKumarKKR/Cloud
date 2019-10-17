@@ -14,8 +14,8 @@ app.use(cors());
 app.use(busboy());
 
 const publicKey = 'ASIA6B5ADDPNBHAGW54F'; // Update the keys
-const secretKey = 'AT8s54ZOvMLgKG8B+fEifwzF3+Z6ngqZ86glGv2E';
-const sessionToken = 'FQoGZXIvYXdzEI///////////wEaDPYtEEk9QjVh1mMbQSKWAopqMj8ZxB2SVXBovfx7fEzKi0ZMjf3nBhj4kIP3sigRBUacic2HuRR07yjoUG5XoHsg1DOKK5R0eICRIH5QaFLw85CuAB8BEXjjMPIM8AmsaZWn0whxu+09i/kodUrr25id4cQYjpjvQZrI+1jjPQDpVs29asrQU/zqFYBNXHLVIQCe1QOb+caop+wc83CvQrmqj5PG7V2e0EyGzkeUBaNl+0HCPR9ycdWt2wxS3FQBI+1Jt/v1NQpXPfcrePSZ1fV6k0TN+j1TCOwXeFmFW0T4AWyIy3tTwT0blO9WQddCzTLflT3kc5o0Ks6Ma4tCOEQ1Zmud/dBCwdObd0elLccoMGhKlPKssvjwbIqp+SfTugHyAOfiKO/Uoe0F';
+const secretKey = 'AglGv2E';
+const sessionToken = 'FQovfx7fEzKi0ZMjf3nBhj4kIP3sigRBUacic2HuRR07yjoUG5XoHsg1DOKK5R0eICRIH5QaFLw85CuAB8BEXjjMPIM8AmsaZWn0whxu+09i/kodUrr25id4cQYjpjvQZrI+1jjPQDpVs29asrQU/zqFYBNXHLVIQCe1QOb+caop+wc83CvQrmqj5PG7V2e0EyGzkeUBaNl+0HCPR9ycdWt2wxS3FQBI+1Jt/v1NQpXPfcrePSZ1fV6k0TN+j1TCOwXeFmFW0T4AWyIy3tTwT0blO9WQddCzTLflT3kc5o0Ks6Ma4tCOEQ1Zmud/dBCwdObd0elLccoMGhKlPKssvjwbIqp+SfTugHyAOfiKO/Uoe0F';
 
 const GOOGLE_CLOUD_PROJECT_ID = ''; // Replace with your project ID
 const GOOGLE_CLOUD_KEYFILE = ''; // Replace with the path to the downloaded private key
